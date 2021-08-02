@@ -9,7 +9,7 @@ const Weather = ({ weatherData, getWeatherData }) => {
     return null;
   }
 
-  debugger;
+  // debugger;
   return (
     <main className='weather'>
       <h1 className='weather__title'>Weather data</h1>
