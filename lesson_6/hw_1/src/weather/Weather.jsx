@@ -9,7 +9,6 @@ const Weather = ({ weatherData, getWeatherData }) => {
     return null;
   }
 
-
   debugger;
   return (
     <main className='weather'>
@@ -27,14 +26,14 @@ const Weather = ({ weatherData, getWeatherData }) => {
   );
 };
 
-
 const mapState = (state) => {
   return {
     weatherData: weatherDataSelector(state),
   };
 };
+
 const mapDispatch = {
-  getWeatherData: weatherActions.fetchWeatherData,
+  getWeatherData: weatherActions.getWeatherData,
 };
 
 export default connect(mapState, mapDispatch)(Weather);
