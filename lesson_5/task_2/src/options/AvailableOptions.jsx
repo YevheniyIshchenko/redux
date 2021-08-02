@@ -5,7 +5,7 @@ import { availableOptionsSelector } from "./options.selectors";
 import Options from "./Options";
 
 const mapState = (state) => {
-  // debugger;
+  debugger;
   return {
     options: availableOptionsSelector(state),
   };
