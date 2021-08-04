@@ -1,7 +1,7 @@
 import { WEATHER_DATA_RECEIVED } from "./weather.actions";
 
 const initialData = {
-  weatherData: [],
+  weatherData: null,
 };
 
 const weatherReducer = (state = initialData, action) => {
